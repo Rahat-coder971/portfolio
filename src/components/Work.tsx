@@ -5,13 +5,19 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Phishing Awareness Platform",
-    category: "Cybersecurity Project",
-    tools: "HTML , CSS , JAVASCRIPT",
-    image: "/images/phishing.png",
-    link: "https://raghavs106.github.io/PHISHING_AWARENESS/",
+    title: "Real-Time Collaborative Whiteboard with AI Summary",
+    category: "Full-Stack Web App",
+    tools: "React, Node.js, Express, MongoDB, Socket.IO, Tailwind CSS",
+    image: "/images/placeholder.webp",
+    link: "#",
   },
-  
+  {
+    title: "Lost & Found Portal",
+    category: "Full-Stack Web App",
+    tools: "React, Node.js, Express, MongoDB, JWT, Multer",
+    image: "/images/placeholder.webp",
+    link: "#",
+  },
 ];
 
 const Work = () => {

@@ -3,7 +3,8 @@
   max-width: var(--cMaxWidth);
   width: var(--cWidth);
   justify-content: space-between;
-  padding: 20px 0px;
+  align-items: center;
+  padding: 22px 0px;
   margin-bottom: -100px;
   box-sizing: border-box;
   position: fixed;
@@ -12,72 +13,62 @@
   top: 0;
   z-index: 9999;
 }
+
+/* Nav links container */
 .header ul {
-  font-size: 12px;
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
-  column-gap: 40px;
-  row-gap: 8px;
-  align-items: end;
+  column-gap: 32px;
+  row-gap: 6px;
+  align-items: flex-end;
+  font-size: 11px;
+  letter-spacing: 1.5px;
 }
+
 .header ul li {
-  margin-left: 0px;
-  letter-spacing: 1px;
   color: #ccc;
-  font-weight: 600;
-  cursor: pointer;
-}
-.navbar-connect {
-  position: absolute;
-  display: none;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 15px;
-  letter-spacing: 1px;
   font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
 }
+
+.header ul li:hover {
+  color: var(--accentColor);
+}
+
+.header ul li a {
+  display: block;
+}
+
+/* RK logo */
 .navbar-title {
   font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.2px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
+
+/* Breakpoints */
 @media only screen and (min-width: 500px) {
-  .header {
-    padding: 20px 0px;
-  }
   .header ul {
     flex-direction: row;
     align-items: center;
-    font-size: 14px;
-  }
-  .header ul li {
-    color: #eae5ec;
-  }
-  .navbar-title {
-    font-size: 16px;
+    font-size: 12px;
+    column-gap: 32px; /* Consistent gap */
   }
 }
-@media only screen and (min-width: 900px) {
-  .navbar-connect {
-    display: block;
-  }
-}
+
 @media only screen and (min-width: 1200px) {
   .header {
-    padding: 35px 0px;
+    padding: 32px 0px;
   }
   .header ul {
-    column-gap: 80px;
-    font-size: 16px;
-  }
-  .navbar-connect {
-    font-size: 16px;
+    column-gap: 40px; /* Matching gap for desktop */
+    font-size: 13px;
   }
   .navbar-title {
-    font-size: 18px;
+    font-size: 17px;
   }
 }

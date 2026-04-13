@@ -5,6 +5,15 @@ export function setCharTimeline(
   character: THREE.Object3D<THREE.Object3DEventMap> | null,
   camera: THREE.PerspectiveCamera
 ) {
+  // Reset any residual GSAP inline transforms left from a previous HMR cycle.
+  // Without this, hot-reload keeps the old `x`/`y` on .character-model
+  // and the new timeline stacks on top → avatar drifts right on every save.
+  gsap.set(".character-model", { clearProps: "x,y,rotation" });
+
+  // Kill any existing ScrollTriggers before re-creating —
+  // prevents duplicate triggers stacking up on each HMR reload.
+  gsap.getTweensOf(".character-model").forEach((t) => t.kill());
+
   let intensity: number = 0;
   setInterval(() => {
     intensity = Math.random();

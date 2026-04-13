@@ -43,18 +43,19 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          RS
-        </a>
-        <a
-          href="https://www.linkedin.com/in/raghavendra-sainy-294977368?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-          className="navbar-connect"
-          data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
-        >
-          linkedin.com/in/raghavendra-sainy-294977368
+          RK
         </a>
         <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/rahat-husain-khan-455634251/"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+            >
+              <HoverLinks text="LINKEDIN" />
+            </a>
+          </li>
           <li>
             <a data-href="#about" href="#about">
               <HoverLinks text="ABOUT" />

@@ -6,14 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-         
-I am a Computer Science student with a strong focus on 
-programming fundamentals, problem solving, and modern software 
-development practices. I consistently apply my learning through
-hands-on projects to build practical and scalable solutions. 
-I aim to develop into askilled software engineer capable of 
-contributing to high-quality,efficient systems.
-
+I have hands-on experience in full-stack web development using the MERN stack (MongoDB, Express.js, React, Node.js),
+with multiple real-world projects built using these technologies. I also have a strong foundation in Core Java and
+Object-Oriented Programming (OOP). I am passionate about building scalable applications and continuously learning
+new technologies. I am especially excited to learn system design and to build and understand complex systems,
+and I am eager to contribute to impactful software solutions.
         </p>
       </div>
     </div>

@@ -13,12 +13,12 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/python.webp",
-  "/images/kotlin.webp",
-  "/images/react.webp",
-  "/images/firebase.webp",
-  "/images/mysql.webp",
   "/images/javascript.webp",
+  "/images/react.webp",
+  "/images/node.webp",
+  "/images/mysql.webp",
+  "/images/python.webp",
+  "/images/next1.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 

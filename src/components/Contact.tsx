@@ -11,24 +11,24 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/raghavendra-sainy-294977368?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                href="https://www.linkedin.com/in/rahat-husain-khan-455634251/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — Raghavendra Sainy
+                LinkedIn — Rahat Husain Khan
               </a>
             </p>
             <h4>Education</h4>
           
             <p>
-              Bsc in Computer Science, Thakur Shyamnarayan degree college, Mumbai University (2024-2027)
+              B.E. in Information Technology, Shree Rayeshwar Institute of Engineering and Information Technology (2022–2026)
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a 
-              href="mailto:sainiraghavendra2@gmail.com"
+              href="mailto:rahathusainkhan483@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="contact-social"
@@ -36,7 +36,7 @@ const Contact = () => {
               Email <MdArrowOutward />
             </a>
             <a
-              href="https://github.com/Raghavs106"
+              href="https://github.com/Rahat-coder971"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -45,7 +45,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/raghavendra-sainy-294977368?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              href="https://www.linkedin.com/in/rahat-husain-khan-455634251/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -53,21 +53,11 @@ const Contact = () => {
             >
               LinkedIn <MdArrowOutward />
             </a>
-            
-         
-            <a
-              href="https://www.instagram.com/_.raghavvvv_?igsh=NXduanA0ajk4dTQz"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
+
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Raghavendra Sainy</span>
+              Designed and Developed <br /> by <span>Rahat Husain Khan</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

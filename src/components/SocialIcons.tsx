@@ -1,7 +1,6 @@
 import {
   FaGithub,
-  FaInstagram,
-  FaLinkedinIn,                                                                                                                                                                            
+  FaLinkedinIn,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { useEffect } from "react";
@@ -58,7 +57,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/Raghavs106"
+            href="https://github.com/Rahat-coder971"
             target="_blank"
             rel="noreferrer"
           >
@@ -67,26 +66,18 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/raghavendra-sainy-294977368?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            href="https://www.linkedin.com/in/rahat-husain-khan-455634251/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedinIn />
           </a>
         </span>
-        <span>
-          <a
-            href="https://www.instagram.com/_.raghavvvv_?igsh=NXduanA0ajk4dTQz"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </span>
+
       </div>
       <a
         className="resume-button"
-        href="/Raghavendra Sainy.pdf"
+        href="/Resume_Rahat.pdf"
         target="_blank"
         rel="noreferrer"
       >

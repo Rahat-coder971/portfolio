@@ -87,22 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOPMENT & PROBLEM-SOLVING</h3>
-              <h4>Building Practical and Scalable Solutions</h4>
+              <h3>DEVELOPMENT &amp; PROBLEM-SOLVING</h3>
+              <h4>Building Practical and Scalable Web Applications</h4>
               <p>
-                I focus on building real-world applications while 
-                strengthening my core in programming and problem solving. 
-                I enjoy working on modern web technologies and continuously 
-                improving my understanding of how scalable systems are designed.
+                I build full-stack applications using modern technologies
+                like React, Node.js, and MongoDB. I focus on writing clean,
+                maintainable code and solving real-world problems through
+                projects.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Frontend Development</div>
-                <div className="what-tags">React and Modern Javascript</div>
-                <div className="what-tags">HTML,CSS & UI Design</div>
-                <div className="what-tags">Data Structures & Algorithms</div>
-                <div className="what-tags">Python and Machine Learning</div>
-                <div className="what-tags">Git & Version Control</div>
+                <div className="what-tags">React</div>
+                <div className="what-tags">Node.js</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Express.js</div>
+                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">REST APIs</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,24 +126,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>PROBLEM-FIRST APPROACH</h3>
-              <h4>Understanding Before Building</h4>
+              <h3>BACKEND &amp; REAL-TIME SYSTEMS</h3>
+              <h4>Creating Secure and Interactive Systems</h4>
               <p>
-                I focus on understanding problems before jumping
-                into code. Instead of relying on shortcuts, I break 
-                things down, explore different approaches, and build
-                solutions that are simple and effective.For me, 
-                writing code is not just about making things work 
-                — it’s about making them make sense.
+                I specialize in backend development, including authentication
+                systems, APIs, and real-time communication. I have hands-on
+                experience with WebSockets and server-side architecture.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">real-time APIs</div>
-                <div className="what-tags">Focus on logic</div>
-                <div className="what-tags">MySQL</div>
-                <div className="what-tags">React</div>
+                <div className="what-tags">Socket.IO</div>
+                <div className="what-tags">JWT</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Multer</div>
+                <div className="what-tags">Joi</div>
+                <div className="what-tags">Postman</div>
               </div>
               <div className="what-arrow"></div>
             </div>
