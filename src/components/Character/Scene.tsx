@@ -13,6 +13,21 @@ import {
 import setAnimations from "./utils/animationUtils";
 import { setProgress } from "../Loading";
 
+const getResponsiveValues = (width: number) => {
+  if (width < 1024) {
+    return {
+      cameraPos: [0, 11.5, 32], // Lower and further back on mobile
+      cameraZoom: 1.0,
+      characterScale: 1.1,
+    };
+  }
+  return {
+    cameraPos: [0, 13.1, 24.7], // Original desktop values
+    cameraZoom: 1.1,
+    characterScale: 1.3,
+  };
+};
+
 const Scene = () => {
   const canvasDiv = useRef<HTMLDivElement | null>(null);
   const hoverDivRef = useRef<HTMLDivElement>(null);
@@ -37,10 +52,11 @@ const Scene = () => {
       renderer.toneMappingExposure = 1;
       canvasDiv.current.appendChild(renderer.domElement);
 
+      const { cameraPos, cameraZoom, characterScale } = getResponsiveValues(window.innerWidth);
+
       const camera = new THREE.PerspectiveCamera(14.5, aspect, 0.1, 1000);
-      camera.position.z = 10;
-      camera.position.set(0, 13.1, 24.7);
-      camera.zoom = 1.1;
+      camera.position.set(cameraPos[0], cameraPos[1], cameraPos[2]);
+      camera.zoom = cameraZoom;
       camera.updateProjectionMatrix();
 
       let headBone: THREE.Object3D | null = null;
@@ -59,6 +75,7 @@ const Scene = () => {
           hoverDivRef.current && animations.hover(gltf, hoverDivRef.current);
           mixer = animations.mixer;
           let character = gltf.scene;
+          character.scale.set(characterScale, characterScale, characterScale);
           setChar(character);
           scene.add(character);
           headBone = character.getObjectByName("spine006") || null;

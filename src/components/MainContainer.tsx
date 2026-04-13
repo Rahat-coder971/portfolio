@@ -9,7 +9,6 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import setSplitText from "./utils/splitText";
-import MobileWarning from "./MobileWarning";
 
 const TechStack = lazy(() => import("./TechStack"));
 
@@ -32,7 +31,6 @@ const MainContainer = ({ children }: PropsWithChildren) => {
 
   return (
     <div className="container-main">
-      <MobileWarning />
       <Cursor />
       <Navbar />
       <SocialIcons />
